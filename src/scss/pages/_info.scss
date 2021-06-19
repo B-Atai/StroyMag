@@ -1,0 +1,20 @@
+.info{
+    margin-top: 160px;
+    h1{
+        font-size: 56px;
+        border-bottom: 5px solid #EDCD1F;
+        max-width: 160px;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__img{
+        padding-left: 120px;
+        img{
+            width: 100%;
+            min-height: 460px;
+        }
+    }
+}

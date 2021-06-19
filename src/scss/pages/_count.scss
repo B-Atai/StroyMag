@@ -1,0 +1,21 @@
+.count{
+    margin-top: -4px;
+    padding: 40px 0;
+    background-color: #EDCD1F;
+    &__item{
+        border-right: 2px solid #3D5975;
+        align-items: center;
+        &:last-child{
+            border-right: none;
+        }
+        span{
+            color: #3D5975;
+            font-size: 26px;
+            font-weight: 700;
+            &:last-child{
+                margin-top: 20px;
+                font-size: 18px;
+            }
+        }
+    }
+}
