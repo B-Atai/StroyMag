@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat';
 }
@@ -48,10 +52,4 @@ h1{
 
 .is-active{
     display: block !important;
-}
-
-.active{
-    a{
-        color: #EDCD1F;
-    }
 }

@@ -1,5 +1,10 @@
 .header {
     background-color: #1E2D3B;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
     &__wrapper{
         display: flex;
         align-items: center;
